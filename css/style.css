@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+.swiper-slide {
+    width: 280px;
+}
+.swiper-button-prev {
+    left: 10%;
+}
         body {
             margin: 0;
             padding: 0;
@@ -239,16 +245,20 @@
             color: #273456;
             border-radius: 15px;
             padding: 2px;
+        
         }
 
         .places__content-card:hover {
-            border: 2px solid #273456;
-            border-radius: 0px 0px 15px 15px;
-            padding: 0;
-            z-index: 1;
+            border: none;
+            cursor: pointer;
+
         }
         .places__content-card-image {
+            width: 100%;
             border-radius: 15px;
+        } 
+        .places__content-card-image img{
+            width: 100%;
         }
         .places__content-card-text {
             padding: 0px 33px 40px 33px;
@@ -492,3 +502,4 @@
             margin-top: 122px;
             margin-bottom: 112px;
         }
+

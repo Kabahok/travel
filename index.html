@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel guide</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 </head>
 <body>
     <div class="wrapper">
@@ -37,10 +38,10 @@
                 </div>
             </section>
             <section class="places" id="places">
-                <div class="places-inner">
+                <div class="places-inner swiper">
                     <div class="places__title">Направления</div>
-                    <div class="places__content">
-                        <div class="places__content-card">
+                    <div class="places__content swiper-wrapper">
+                        <div class="places__content-card swiper-slide">
                             <div class="places__content-card-image"><img src="img/Amazonia.jpg" alt=""></div>
                             <div class="places__content-card-text">
                                 <p class="places__content-card-target">Амазония</p>
@@ -51,7 +52,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="places__content-card">
+                        <div class="places__content-card swiper-slide">
                             <div class="places__content-card-image"><img src="img/shrilanka.jpg" alt=""></div>
                             <div class="places__content-card-text">
                                 <p class="places__content-card-target">Шри-ланка</p>
@@ -62,7 +63,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="places__content-card">
+                        <div class="places__content-card swiper-slide">
                             <div class="places__content-card-image"><img src="img/keyptown.jpg" alt=""></div>
                             <div class="places__content-card-text">
                                 <p class="places__content-card-target">Кейптаун</p>
@@ -73,7 +74,51 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="places__content-card">
+                        <div class="places__content-card swiper-slide">
+                            <div class="places__content-card-image"><img src="img/kuba.jpg" alt=""></div>
+                            <div class="places__content-card-text">
+                                <p class="places__content-card-target">Куба</p>
+                                <p class="places__content-card-date">14 декабря</p>
+                                <div class="places__content-card_information">
+                                    <p class="places__content-card-days">7 дней</p>
+                                    <p class="places__content-card-amount">13 человек</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="places__content-card swiper-slide">
+                            <div class="places__content-card-image"><img src="img/Amazonia.jpg" alt=""></div>
+                            <div class="places__content-card-text">
+                                <p class="places__content-card-target">Амазония</p>
+                                <p class="places__content-card-date">13 августа</p>
+                                <div class="places__content-card_information">
+                                    <p class="places__content-card-days">7 дней</p>
+                                    <p class="places__content-card-amount">13 человек</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="places__content-card swiper-slide">
+                            <div class="places__content-card-image"><img src="img/shrilanka.jpg" alt=""></div>
+                            <div class="places__content-card-text">
+                                <p class="places__content-card-target">Шри-ланка</p>
+                                <p class="places__content-card-date">28 августа</p>
+                                <div class="places__content-card_information">
+                                    <p class="places__content-card-days">5 дней</p>
+                                    <p class="places__content-card-amount">7 человек</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="places__content-card swiper-slide">
+                            <div class="places__content-card-image"><img src="img/keyptown.jpg" alt=""></div>
+                            <div class="places__content-card-text">
+                                <p class="places__content-card-target">Кейптаун</p>
+                                <p class="places__content-card-date">5 сентября</p>
+                                <div class="places__content-card_information">
+                                    <p class="places__content-card-days">3 дня</p>
+                                    <p class="places__content-card-amount">4 человека</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="places__content-card swiper-slide">
                             <div class="places__content-card-image"><img src="img/kuba.jpg" alt=""></div>
                             <div class="places__content-card-text">
                                 <p class="places__content-card-target">Куба</p>
@@ -85,6 +130,8 @@
                             </div>
                         </div>
                     </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                     <div class="places__button button">Смотреть все направления</div>
                 </div>
             </section>
@@ -118,6 +165,7 @@
             </footer>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html> 
